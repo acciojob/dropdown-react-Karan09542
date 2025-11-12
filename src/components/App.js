@@ -321,15 +321,15 @@ function App() {
       </section>
       <section>
         <div className="card">
-          <h1 id="state-name">{state.name}</h1>
+          <h1 id="state-title">{state.name}</h1>
           <p id="state-description">{state.description}</p>
         </div>
         <div className="card">
-          <h1 id="city-name">{city.name}</h1>
+          <h1 id="city-title">{city.name}</h1>
           <p id="city-description">{city.description}</p>
         </div>
         <div className="card">
-          <h1 id="landmark-name">{landmark.name}</h1>
+          <h1 id="landmark-title">{landmark.name}</h1>
           <p id="landmark-description">{landmark.description}</p>
         </div>
       </section>
